@@ -25,7 +25,7 @@ export default async function handler(req, res) {
   // Risposta del Frame
   res.status(200).json({
     image,
-    postUrl: "https://link-frame-server-1xvh.vercel.app/api/link-frame",
+    postUrl: "https://link-frame-server.vercel.app/link-frame",
     buttons: [
       { label: "Bullish 🚀" },
       { label: "Bearish 📉" },
@@ -34,6 +34,7 @@ export default async function handler(req, res) {
     text: message
   });
 }
+
 
 
 
