@@ -2,7 +2,8 @@
   "version": 2,
   "functions": {
     "api/link-frame.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "nodejs24.x"
     }
   }
 }
+
